@@ -4,7 +4,7 @@ import '@fontsource/roboto/400.css';
 let theme = createTheme({
     palette: {
       primary: {
-        main: '#524d4d',
+        main: '#141414',
       },
       secondary: {
         main: '#4f8e3e',
@@ -12,10 +12,11 @@ let theme = createTheme({
     },
     typography:{
       fontFamily: [
-        "Roboto"
+        "Afacad Flux"
     ].join(','),
     }
   });
+  
 
   theme = responsiveFontSizes(theme);
 
